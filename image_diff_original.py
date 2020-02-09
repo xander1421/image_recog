@@ -23,15 +23,17 @@ imageA = cv2.imread(args["first"])
 imageB = cv2.imread(args["second"])
 
 """
+# make a screenshot of the primary display(1)
 # pyautogui.screenshot("2_6.jpg")
 
 
-
-
-
 # load two input images
-imageA = cv2.imread("1_6.jpg")
-imageB = cv2.imread("2_6.jpg")
+img1_path = "C:\\image_recog\\images\\1_6.jpg"
+img2_path = "C:\\image_recog\\images\\2_6.jpg"
+
+imageA = cv2.imread(img1_path)
+imageB = cv2.imread(img2_path)
+
 
 
 ## get image dimensions
